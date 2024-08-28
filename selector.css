@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:whitesmoke;
+}
+#artical-35
+{
+    
+    text-align: center;
+    
+}
+h1,h2{
+    color: red;
+}
+img{
+    margin-left:40% ;
+}
+p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify ;
+    text-indent: 20px;
+    font-size: 16px;
+    
+}
+.name{
+    color: red;
+}
+
+aside {
+    margin-top: 10px;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
