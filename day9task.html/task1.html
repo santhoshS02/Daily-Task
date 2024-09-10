@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // adding elements in the array without using push
+        let fruits=['apple','mango','grapes']
+        fruits.splice(3,0,'orange')
+        console.log(fruits)
+
+        // removing elements in the array with out using pop
+        let arr =[10,20.30,40,50,60]
+        let new1 = arr.filter(arr=>arr!==60)
+        console.log(new1)
+
+        let arr1=['apple','mang0','banana'];
+        let var2=arr1.slice(2)
+        console.log(var2)
+
+        // adding special character between two elements 
+
+        let num =[10,20,30,40,50,60,70]
+
+        let num1= num.splice(0,1,'1+0');
+        console.log(num)
+
+        // employee details(EMPID, EMPNAME, EMPSALARY EMPDESIGNATION) Display any 3 objects
+
+        const employees = [
+    {
+        EMPID: 101,
+        EMPNAME: 'John Doe',
+        EMPSALARY: 50000,
+        EMPDESIGNATION: 'Software Engineer'
+    },
+    {
+        EMPID: 102,
+        EMPNAME: 'Jane Smith',
+        EMPSALARY: 60000,
+        EMPDESIGNATION: 'Project Manager'
+    },
+    {
+        EMPID: 103,
+        EMPNAME: 'Alice Johnson',
+        EMPSALARY: 55000,
+        EMPDESIGNATION: 'UX Designer'
+    },
+    {
+        EMPID: 104,
+        EMPNAME: 'Bob Brown',
+        EMPSALARY: 65000,
+        EMPDESIGNATION: 'QA Engineer'
+    },
+    {
+        EMPID: 105,
+        EMPNAME: 'Carol White',
+        EMPSALARY: 70000,
+        EMPDESIGNATION: 'DevOps Engineer'
+    }
+];
+
+for (let i = 0; i < 3; i++) {
+    const emp = employees[i];
+    console.log(`EMPID: ${emp.EMPID}`);
+    console.log(`EMPNAME: ${emp.EMPNAME}`);
+    console.log(`EMPSALARY: ${emp.EMPSALARY}`);
+    console.log(`EMPDESIGNATION: ${emp.EMPDESIGNATION}`);
+}
+
+    </script>
+</body>
+</html>
